@@ -5,10 +5,7 @@ function Cadastro() {
     return (
         <>
             <Navegacao />
-            <div className="divCadastro">
-                <h1 className="cadastro">Cadastro de ave</h1>
-                <FormAnimal />
-            </div>
+            <FormAnimal />
         </>
     );
 }

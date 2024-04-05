@@ -1,40 +1,45 @@
-input {
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    font-family: "Caesar Dressing", system-ui;
-    width: 400px;
-    margin-bottom: 10px;
-
-}
-
-label {
-    font-family: "Caesar Dressing", system-ui;
-    margin-bottom: 15px;
-}
 
 body {
-    font-family: "Caesar Dressing", system-ui;
+    font-family: "Caesar Dressing", system-ui !important;
 }
 
-.divCadastro {
+select, button {
+    color: white !important;
+    background-color: black !important;
+}
+
+
+.input{
+    width: 500px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 2px black ;
+}
+
+.tudo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.forms{
     display: flex;
     flex-direction: column;
+    
+}
+
+label{
+    margin-top: 30px;
+}
+
+.button{
+    margin-top: 30px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
-button,
-select {
-    background-color: black !important;
-    color: white !important;
-    border-radius: 10px;
-    width: 400px;
-    margin-bottom: 10px;
-
-}
-
-select {
-    height: 30px;
+.titulo{
+    margin-top: 40px;
 }
