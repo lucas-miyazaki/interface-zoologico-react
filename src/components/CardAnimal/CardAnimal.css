@@ -17,3 +17,9 @@
 .ctn-cardanimal > p {
     font-size: 2rem;
 }
+.card-animal {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}

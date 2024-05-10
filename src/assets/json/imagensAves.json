@@ -1,0 +1,62 @@
+[
+	{
+		"index": 1,
+		"src": "./src/assets/aves/birds-001.png",
+		"caption": "Tucano",
+        "text": "Lorem Ipsum"
+	},
+	{
+		"index": 2,
+		"src": "./src/assets/aves/birds-002.png",
+		"caption": "Matando a sede",
+        "text": "Lorem Ipsum"
+	},
+    {
+		"index": 3,
+		"src": "./src/assets/aves/birds-003.jpeg",
+		"caption": "Posando para a foto",
+        "text": "Lorem Ipsum"
+	},
+    {
+		"index": 4,
+		"src": "./src/assets/aves/birds-004.jpeg",
+		"caption": "Maurício?",
+        "text": "Lorem Ipsum"
+	},
+    {
+		"index": 5,
+		"src": "./src/assets/aves/birds-005.jpeg",
+		"caption": "Zoológico",
+        "text": "Lorem Ipsum"
+	},
+	{
+		"index": 6,
+		"src": "./src/assets/aves/birds-006.jpeg",
+		"caption": "Tucano",
+        "text": "Lorem Ipsum"
+	},
+	{
+		"index": 7,
+		"src": "./src/assets/aves/birds-007.jpeg",
+		"caption": "Matando a sede",
+        "text": "Lorem Ipsum"
+	},
+    {
+		"index": 8,
+		"src": "./src/assets/aves/birds-008.jpg",
+		"caption": "Posando para a foto",
+        "text": "Lorem Ipsum"
+	},
+    {
+		"index": 9,
+		"src": "./src/assets/aves/birds-009.jpg",
+		"caption": "Maurício?",
+        "text": "Lorem Ipsum"
+	},
+    {
+		"index": 10,
+		"src": "./src/assets/aves/birds-010.jpg",
+		"caption": "Zoológico",
+        "text": "Lorem Ipsum"
+	}
+]

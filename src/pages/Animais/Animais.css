@@ -1,0 +1,9 @@
+.ctn-animais {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    justify-content: space-around;
+}
+.div-mae {
+    background-color: #F1EFB8 !important;
+}

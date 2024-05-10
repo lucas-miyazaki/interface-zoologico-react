@@ -1,31 +1,26 @@
-import './CardAnimal.css'
-import imgNotFound from '../../assets/img-not-found.png'
+import React, { useEffect, useState } from 'react';
+import './CardAnimal.css';
+import imgNotFound from '../../assets/img-not-found.png';
 
-function CardAnimal({ animal }) {
+const CardAnimal = ({ animal, imgSource }) => {
 
-    const exibeID = () => {
-        console.log(animal.idanimal, "\n", animal);
-    }
-
-    let conteudoEspecifico;
-
-    if (animal.tipoanimal === "Ave") {
-        conteudoEspecifico = <p>Envergadura: {animal.envergadura}</p>;
-    } else if (animal.tipoanimal === "Mamifero") {
-        conteudoEspecifico = <p>Raça: {animal.especie}</p>;
-    } else if (animal.tipoanimal === "Reptil") {
-        conteudoEspecifico = <p>Escamas: {animal.tipodeescamas}</p>;
-    }
+    const exibeID = (id) => {
+        console.log(id);
+    };
 
     return (
-        <div className='card-animal'>
-            <img src={imgNotFound} alt="Imagem não encontrada" onClick={exibeID} />
-            <p>Nome: {animal.nomeanimal}</p>
-            <p>Gênero: {animal.generoanimal}</p>
-            <p>Espécie: {animal.tipoanimal}</p>
-            {conteudoEspecifico}
-        </div >
+        <>
+            {/* {passaros.map(passaro => ( */}
+                <div className='card-animal'>
+                    <img src={imgSource} alt="Imagem não encontrada" style={{ height: "150px", width: "200px", borderRadius: "20px" }} />
+                    <p>Nome: {animal.nomeanimal}</p>
+                    <p>Gênero: {animal.generoanimal}</p>
+                    <p>Espécie: {animal.tipoanimal}</p>
+                    <p>Envergadura: {animal.envergadura}</p>
+                </div>
+            {/* ))} */}
+        </>
     );
-}
+};
 
 export default CardAnimal;
