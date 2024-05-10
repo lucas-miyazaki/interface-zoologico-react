@@ -1,0 +1,4 @@
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-color-type: rgb(0, 0, 0)!important;
+    --bs-table-bg-type: #575448!important;
+}
